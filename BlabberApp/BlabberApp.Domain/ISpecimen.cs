@@ -4,7 +4,8 @@ using System.Text;
 
 namespace BlabberApp.Domain
 {
-    interface ISpecimen
+    public interface ISpecimen
     {
+        string getsysid();
     }
 }

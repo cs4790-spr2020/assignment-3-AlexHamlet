@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BlabberApp.Domain
 {
-    interface IDataStore
+    public interface IDataStore
     {
         bool Create(IDatum datum);
         IDatum Read(ISpecimen spec);
