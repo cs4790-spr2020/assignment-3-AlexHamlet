@@ -55,6 +55,7 @@ namespace BlabberApp.DataStore
                 {
                     retval = memory[memory.IndexOf(val)];
                     memory.RemoveAt(memory.IndexOf(val));
+                    return retval;
                 }
             }
             return retval;
